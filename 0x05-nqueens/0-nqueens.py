@@ -39,7 +39,8 @@ def init():
     if the_queen < 4:
         print("N must be at least 4")
         sys.exit(1)
-    return(the_queen)
+    return (the_queen)
+
 
 def n_queens():
 
@@ -53,4 +54,4 @@ def n_queens():
 
 
 if __name__ == '__main__':
-    n_queens() 
+    n_queens()
