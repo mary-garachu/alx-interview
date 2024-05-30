@@ -41,7 +41,6 @@ def init():
         sys.exit(1)
     return(the_queen)
 
-
 def n_queens():
 
     the_queen = init()
@@ -54,4 +53,4 @@ def n_queens():
 
 
 if __name__ == '__main__':
-    n_queens()
+    n_queens() 
