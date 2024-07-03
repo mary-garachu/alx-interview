@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""Module defining isWinner function."""
+
+
 def isWinner(x, nums):
     def sieve_of_eratosthenes(max_n):
         """Generate a list of prime numbers up to max_n"""
